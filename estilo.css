@@ -1,0 +1,61 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family:monospace;
+   }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(104, 104, 171, 0.673);
+    height: 100vh;
+}
+
+.modos{
+    height: 70vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px 10px #0000005e;
+}
+
+.botao{
+    height: 30px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #0000003c;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 10px;
+    margin: 0px 30px 0px 10px;
+    transition: 0.5s;
+}
+
+.solo{
+    background-color: red;
+}
+
+.duo{
+    background-color: pink;
+}
+
+.botao:hover{
+    height: 40px;
+    width: 100px;
+}
+
+.botao:active{
+    background-color: black;
+}
